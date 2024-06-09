@@ -1,5 +1,10 @@
 .list {
     list-style: none;
+    font-size: larger;
+    justify-content: baseline;
+    display: flex;
+    gap: 30px;
+    margin-top: px;
 }
 
 .menu-link {
@@ -58,12 +63,52 @@
 }
 
 .price {
-    /* $8.00(kg) */
-    position: absolute;
-    width: 105px;
-    height: 29px;
-    left: 348px;
-    right: 978px;
-    top: 813px;
-    bottom: 181px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+.card {
+    background-color: #272727;
+    width: 310px;
+    height: 225px;
+    display: flex;
+}
+
+.cards {
+    display: flex;
+    justify-content: baseline;
+    gap: 104px;
+}
+
+.description-card {
+    text-align: center
+}
+
+.product-description {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+.button-card {
+    color: white;
+    background-color: #C85312;
+    border: 0;
+    width: 79px;
+    height: 34px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+        font-size: 19px;
 }
