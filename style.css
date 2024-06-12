@@ -24,18 +24,13 @@
 
 .first-description {
     width: 570.25px;
-    height: 225px;
-    left: 160px;
-    right: 700.75px;
-    top: 347px;
-    bottom: 451px;
     color: white;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    font-variation-settings:
-        "slnt" 0;
+    font-size: 21px; 
+    line-height: 25.41px;
+    margin-left: 160px;
 }
 
 .bckg-header {
@@ -58,6 +53,7 @@
     font-variation-settings:
         "slnt" 0;
     font-size: 70px;
+    margin-left: 160px;
 }
 
 .price {
@@ -109,4 +105,20 @@
     font-variation-settings:
         "slnt" 0;
         font-size: 19px;
+}
+.button-about {
+    width: 207px;
+    height: 57px;
+    border-radius: 17px;
+    background-color: rgb(180, 123, 72);
+    color: white;
+    border: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+      font-size: 24px;
+      margin-left: 160px;
 }
