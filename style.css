@@ -4,7 +4,6 @@
     justify-content: baseline;
     display: flex;
     gap: 30px;
-    margin-top: px;
 }
 
 .menu-link {
@@ -28,7 +27,7 @@
     font-family: "Inter", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 21px; 
+    font-size: 21px;
     line-height: 25.41px;
     margin-left: 160px;
 }
@@ -93,6 +92,7 @@
     font-variation-settings:
         "slnt" 0;
 }
+
 .button-card {
     color: white;
     background-color: #C85312;
@@ -105,8 +105,9 @@
     font-style: normal;
     font-variation-settings:
         "slnt" 0;
-        font-size: 19px;
+    font-size: 19px;
 }
+
 .button-about {
     width: 207px;
     height: 57px;
@@ -119,10 +120,57 @@
     font-weight: 300;
     font-style: normal;
     font-variation-settings:
-      "slnt" 0;
-      font-size: 24px;
-      margin-left: 160px;
+        "slnt" 0;
+    font-size: 24px;
+    margin-left: 160px;
 }
+
 .menu {
     background-color: #202023;
+}
+
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 200px;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.menu-image {
+    outline: 1px solid white;
+    width: 328px;
+    height: 229px;
+}
+
+.menu-buttons {
+    width: 160px;
+    height: 41px;
+    background-color: #B47B48;
+    border-radius: 17px;
+    border: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    font-size: 25.92px;
+    margin-bottom: 7px;
+    margin-top: 9px;
+}
+
+.menu-title {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
 }
