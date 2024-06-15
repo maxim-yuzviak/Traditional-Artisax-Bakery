@@ -138,7 +138,7 @@
     column-gap: 200px;
     justify-content: center;
     list-style: none;
-
+    margin-bottom: 0px;
 }
 
 .menu-image {
@@ -194,4 +194,50 @@ html {
 
 .header {
     padding-top: 50px;
+}
+
+.quality-our-bekary {
+    background-color: #202023;
+
+}
+
+.quality-list {
+    margin-top: 0px;
+    row-gap: 92px;
+    display: flex;
+    justify-content: center;
+    column-gap: 92px;
+    padding-top: 204px;
+}
+
+.bread {}
+
+.cookies {
+    align-self: center;
+    justify-self: center;
+}
+
+.pie {
+    row-gap: 81px;
+}
+
+.quality-list-items {
+    list-style: none;
+}
+
+.description-quality {
+    text-align: left;
+    background-color: #F2F2F24D;
+    height: 197.53px;
+    width: 291.48px;
+    display: flex;
+    align-self: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: white;
+    font-size: 24px;
 }
