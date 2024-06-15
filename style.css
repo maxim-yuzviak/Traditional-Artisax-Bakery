@@ -275,6 +275,7 @@ html {
     display: flex;
     justify-content: center;
     gap: 140px;
+    margin-bottom: 0;
 }
 
 .why-description {
@@ -288,4 +289,76 @@ html {
     font-size: 24px;
     display: flex;
     justify-content: center;
+}
+
+.where {
+    background-color: #202023;
+}
+
+.where-title {
+    margin-top: 0;
+    color: white;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+}
+
+.telephone {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    font-size: 24px;
+}
+
+.how {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: white;
+    font-size: 40px;
+}
+
+.where-list {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    margin-top: 0;
+}
+
+.how-links {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: white;
+}
+.when {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: white;
+    font-size: 40px;
+}
+.when-description {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: white;
 }
