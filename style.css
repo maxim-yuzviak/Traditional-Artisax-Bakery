@@ -4,6 +4,7 @@
     justify-content: baseline;
     display: flex;
     gap: 30px;
+    margin-top: 0;
 }
 
 .menu-link {
@@ -18,7 +19,7 @@
     font-style: normal;
     font-variation-settings:
         "slnt" 0;
-
+    font-size: 24px;
 }
 
 .first-description {
@@ -30,11 +31,6 @@
     font-size: 21px;
     line-height: 25.41px;
     margin-left: 160px;
-}
-
-.bckg-header {
-    background-image: url(img/header.png);
-    background-repeat: no-repeat;
 }
 
 .container {
@@ -67,6 +63,13 @@
 
 .card {
     background-color: #272727;
+    width: 310px;
+    height: 225px;
+    display: flex;
+}
+
+.card:hover {
+    background-color: #EBAD51;
     width: 310px;
     height: 225px;
     display: flex;
@@ -135,7 +138,7 @@
     column-gap: 200px;
     justify-content: center;
     list-style: none;
-    
+
 }
 
 .menu-image {
@@ -173,4 +176,22 @@
     font-size: 64px;
     display: flex;
     justify-content: center;
+}
+
+.header-bckg {
+    background-image: url(img/header1.jpg);
+    background-size: cover;
+}
+
+.all-code {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    padding: 0;
+}
+
+.header {
+    padding-top: 50px;
 }
