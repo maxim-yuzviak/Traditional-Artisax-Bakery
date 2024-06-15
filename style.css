@@ -139,6 +139,8 @@
     justify-content: center;
     list-style: none;
     margin-bottom: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 190px);
 }
 
 .menu-image {
@@ -207,7 +209,7 @@ html {
     display: flex;
     justify-content: center;
     column-gap: 92px;
-    padding-top: 204px;
+    margin-bottom: 0;
 }
 
 .bread {}
@@ -240,4 +242,50 @@ html {
         "slnt" 0;
     color: white;
     font-size: 24px;
+}
+
+.quality-title {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.why-title {
+    color: white;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    margin-top: 0;
+}
+
+.why {
+    background-image: linear-gradient(to right, black 0%, transparent 100%), url(img/why-bckg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.why-list {
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+}
+
+.why-description {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
 }
