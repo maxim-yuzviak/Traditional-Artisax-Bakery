@@ -35,7 +35,7 @@
 
 .container {
     margin: 0 auto;
-    outline: 1px solid black;
+    outline: 1px solid #202023;
     width: 1200px;
 }
 
@@ -66,6 +66,7 @@
     width: 310px;
     height: 225px;
     display: flex;
+    background: linear-gradient(to right,  black 0,22%, #272727);
 }
 
 .card:hover {
@@ -73,6 +74,7 @@
     width: 310px;
     height: 225px;
     display: flex;
+    background: linear-gradient(to right,  black 0,22%, #EBAD51);
 }
 
 .cards {
@@ -139,8 +141,7 @@
     justify-content: center;
     list-style: none;
     margin-bottom: 0px;
-    display: grid;
-    grid-template-columns: repeat(2, 190px);
+    padding-left: 0;
 }
 
 .menu-image {
@@ -203,6 +204,13 @@ html {
 
 }
 
+.quality-bckg {
+    background-image: url(img/quality.png);
+    background-color: #202023;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .quality-list {
     margin-top: 0px;
     row-gap: 92px;
@@ -210,6 +218,7 @@ html {
     justify-content: center;
     column-gap: 92px;
     margin-bottom: 0;
+
 }
 
 .bread {}
@@ -229,7 +238,9 @@ html {
 
 .description-quality {
     text-align: left;
-    background-color: #F2F2F24D;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(36px);
+    background: rgba(242, 242, 242, 0.3);
     height: 197.53px;
     width: 291.48px;
     display: flex;
@@ -332,6 +343,7 @@ html {
     gap: 100px;
     list-style: none;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .how-links {
@@ -343,6 +355,7 @@ html {
         "slnt" 0;
     color: white;
 }
+
 .when {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -353,6 +366,7 @@ html {
     color: white;
     font-size: 40px;
 }
+
 .when-description {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -361,4 +375,37 @@ html {
     font-variation-settings:
         "slnt" 0;
     color: white;
+}
+
+.footer {
+    background-color: #202023;
+}
+
+.footer-list {
+    margin-top: 0;
+    display: flex;
+    gap: 140px;
+    list-style: none;
+}
+
+.list-footer {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    font-size: 24px;
+}
+
+.h1-footer {
+    margin-top: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    font-size: 40px;
 }
