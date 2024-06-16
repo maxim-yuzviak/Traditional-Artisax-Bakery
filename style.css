@@ -221,8 +221,6 @@ html {
 
 }
 
-.bread {}
-
 .cookies {
     align-self: center;
     justify-self: center;
@@ -408,4 +406,15 @@ html {
     font-variation-settings:
         "slnt" 0;
     font-size: 40px;
+}
+.copyright {
+    color: white;
+    margin-bottom: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    font-size: 20px;
 }
