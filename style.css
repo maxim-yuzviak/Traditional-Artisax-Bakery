@@ -5,6 +5,7 @@
     display: flex;
     gap: 30px;
     margin-top: 0;
+    padding-left: 0;
 }
 
 .menu-link {
@@ -30,7 +31,6 @@
     font-style: normal;
     font-size: 21px;
     line-height: 25.41px;
-    margin-left: 160px;
 }
 
 .container {
@@ -48,7 +48,10 @@
     font-variation-settings:
         "slnt" 0;
     font-size: 70px;
-    margin-left: 160px;
+}
+
+.products-list {
+    padding-left: 0;
 }
 
 .price {
@@ -66,7 +69,7 @@
     width: 310px;
     height: 225px;
     display: flex;
-    background: linear-gradient(to right,  black 0,22%, #272727);
+    background: linear-gradient(to right, black 0, 22%, #272727);
 }
 
 .card:hover {
@@ -74,7 +77,7 @@
     width: 310px;
     height: 225px;
     display: flex;
-    background: linear-gradient(to right,  black 0,22%, #EBAD51);
+    background: linear-gradient(to right, black 0, 22%, #EBAD51);
 }
 
 .cards {
@@ -127,7 +130,7 @@
     font-variation-settings:
         "slnt" 0;
     font-size: 24px;
-    margin-left: 160px;
+    margin-bottom: 125px;
 }
 
 .menu {
@@ -144,10 +147,13 @@
     padding-left: 0;
 }
 
-.menu-image {
+.outline-menu {
     outline: 1px solid white;
     width: 328px;
     height: 229px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu-buttons {
@@ -167,6 +173,9 @@
     margin-bottom: 7px;
     margin-top: 9px;
 }
+.menu-items {
+    
+}
 
 .menu-title {
     color: white;
@@ -183,7 +192,8 @@
 
 .header-bckg {
     background-image: url(img/header1.jpg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .all-code {
@@ -407,6 +417,7 @@ html {
         "slnt" 0;
     font-size: 40px;
 }
+
 .copyright {
     color: white;
     margin-bottom: 0;
