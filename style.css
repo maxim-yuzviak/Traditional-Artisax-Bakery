@@ -188,6 +188,7 @@
     font-size: 64px;
     display: flex;
     justify-content: center;
+    margin-top: 0;
 }
 
 .header-bckg {
