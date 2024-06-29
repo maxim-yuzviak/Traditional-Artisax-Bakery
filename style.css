@@ -13,6 +13,22 @@
     color: white;
 }
 
+.about {
+    animation: text-focus-in 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@keyframes text-focus-in {
+    0% {
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
 .list-item {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -135,6 +151,7 @@
 
 .menu {
     background-color: #202023;
+    padding-top: 25px;
 }
 
 .menu-list {
@@ -146,6 +163,7 @@
     margin-bottom: 0px;
     padding-left: 0;
 }
+
 
 .outline-menu {
     outline: 1px solid white;
@@ -173,9 +191,8 @@
     margin-bottom: 7px;
     margin-top: 9px;
 }
-.menu-items {
-    
-}
+
+.menu-items {}
 
 .menu-title {
     color: white;
@@ -212,6 +229,8 @@ html {
 
 .quality-our-bekary {
     background-color: #202023;
+    padding-bottom: 47.54px;
+    padding-top: 90px;
 
 }
 
@@ -289,6 +308,7 @@ html {
     background-image: linear-gradient(to right, black 0%, transparent 100%), url(img/why-bckg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 55px;
 }
 
 .why-list {
