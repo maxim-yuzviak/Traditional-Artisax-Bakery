@@ -106,6 +106,7 @@
         height: 225px;
         display: flex;
         background: linear-gradient(to right, black 0, 22%, #272727);
+        
     }
 
     .card:hover {
@@ -503,4 +504,5 @@
         font-variation-settings:
             "slnt" 0;
         font-size: 20px;
+        
     }

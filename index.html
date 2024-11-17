@@ -10,13 +10,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italiana&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="img/icon.png" type="image/png">
 </head>
 
 <body class="all-code">
     <div class="header-bckg">
         <div class="bckg-header container ">
             <header class="header">
-                <ul class="list">
+                <ul class="list animate__fadeInBottomLeft animate__animated">
                     <li class="list-item scale-up-center"><a href="#about" class="menu-link">About us</a></li>
                     <li class="list-item scale-up-center"><a href="#de" class="menu-link">Delivery</a></li>
                     <li class="list-item scale-up-center"><a href="#menu" class="menu-link">Menu</a></li>
@@ -24,7 +27,8 @@
                     <li class="list-item scale-up-center"><a href="#" class="menu-link">Reviews</a></li>
                 </ul>
                 <ul>
-                    <li style="color: white;">En <img src="img/uk-flag.png" alt="uk flag" style="width: 15px; height: 15px;"></li>
+                    <li style="color: white;">En <img src="img/uk-flag.png" alt="uk flag"
+                            style="width: 15px; height: 15px;"></li>
                     <li></li>
                 </ul>
             </header>
@@ -45,7 +49,7 @@
                     <ul class="products-list">
                         <div class="cards">
                             <li>
-                                <section class="card">
+                                <section data-aos="fade-up" class="card">
                                     <img src="img/cookies.png" alt="Cookies">
                                     <div class="description-card">
                                         <h3 class="price">$8.00(kg)</h3>
@@ -55,7 +59,7 @@
                                 </section>
                             </li>
                             <li>
-                                <section class="card">
+                                <section data-aos="fade-up" class="card">
                                     <img src="img/croisant.png" alt="Croisant">
                                     <div class="description-card">
                                         <h3 class="price">$4.00(kg)</h3>
@@ -65,7 +69,7 @@
                                 </section>
                             </li>
                             <li>
-                                <section class="card">
+                                <section data-aos="fade-up" class="card">
                                     <img src="img/pie.png" alt="pie">
                                     <div class="description-card">
                                         <h3 class="price">For piece $4.00</h3>
@@ -83,26 +87,26 @@
                 <h2 class="menu-title">Menu</h2>
                 <ul class="menu-list">
                     <li class="menu-items">
-                        <div class="outline-menu">
+                        <div data-aos="fade-right" class="outline-menu">
                             <img src="img/bread-mart-bread-with-no-background-1558851 1.png" alt="bread"
                                 class="menu-image-bread">
                         </div>
                         <center><button class="menu-buttons scale-down-center">Order</button></center>
                     </li>
                     <li class="menu-items">
-                        <div class="outline-menu">
+                        <div data-aos="fade-left" class="outline-menu">
                             <img src="img/kombo-bakery.png" alt="BAKERY" class="menu-image-bakery">
                         </div>
                         <center><button class="menu-buttons scale-down-center">Order</button></center>
                     </li>
                     <li class="menu-items">
-                        <div class="outline-menu">
+                        <div data-aos="fade-right" class="outline-menu">
                             <img src="img/combo-cakes.png" alt="cake and cupcake" class="menu-image-pie">
                         </div>
                         <center><button class="menu-buttons scale-down-center">Order</button></center>
                     </li>
                     <li class="menu-items">
-                        <div class="outline-menu">
+                        <div data-aos="fade-left" class="outline-menu">
                             <img src="img/combo-cookies.png" alt="cookies and pretzels" class="menu-image-cookie">
                         </div>
                         <center><button class="menu-buttons scale-down-center">Order</button></center>
@@ -116,7 +120,8 @@
                 <div class="container">
                     <ul class="quality-list">
                         <li class="quality-list-items">
-                            <img src="img/bread-mart-bread-with-no-background-1558851 1.png" alt="bread" class="bread rotate-scale-up">
+                            <img src="img/bread-mart-bread-with-no-background-1558851 1.png" alt="bread"
+                                class="bread rotate-scale-up">
                             <div class="description-quality">
                                 <p>1.Flour with fresh wheat
                                     <br>
@@ -143,7 +148,8 @@
                                 </div>
                             </li>
                         </center>
-                        <li class="quality-list-items"><img src="img/only-pie.png" alt="pie" class="pie rotate-scale-up">
+                        <li class="quality-list-items"><img src="img/only-pie.png" alt="pie"
+                                class="pie rotate-scale-up">
                             <div class="description-quality">
                                 <p>1.Flour with fresh wheat
                                     <br>
@@ -166,15 +172,15 @@
                     <br> BAKERY ?
                 </h1>
                 <ul class="why-list">
-                    <li>
+                    <li data-aos-delay="250" data-aos="flip-down">
                         <img src="img/from-home.png" alt="home and bell">
                         <p class="why-description">Order at home</p>
                     </li>
-                    <li>
+                    <li data-aos-delay="350" data-aos="flip-down">
                         <img src="img/fresh.png" alt="fresh food">
                         <p class="why-description">Fresh food</p>
                     </li>
-                    <li>
+                    <li data-aos-delay="450" data-aos="flip-down">
                         <img src="img/fast.png" alt="fast delivery to home">
                         <p class="why-description">Speed Delivery 24 h</p>
                     </li>
@@ -235,13 +241,17 @@
                     </li>
                 </ul>
                 <center>
-                    <p class="copyright">@2024 Eatly.All right riserved.</p>
+                    <p class="copyright animate__jello animate__animated">@2024 Eatly.All right riserved.</p>
                 </center>
             </div>
         </footer>
     </div>
     </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
